@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade Final</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://www.growdev.com.br/assets/images/favicons/favicon.png"> 
+  <style>
+
+body {
+  font-family: Sans-serif, serif;
+  margin: 0;
+  height: 100vh;
+}
+
+aside {
+  background: #DEB887;
+  width: 25%;
+  height: 100%;
+}
+
+nav{
+  display: block;
+  margin-top: 0;
+  height: 100%;
+
+}
+
+nav img {
+  height: 25vh;
+  border-radius: 50%;
+  position: relative;
+  margin-top: 23vh;
+  left:15%;
+  border: 5px solid orange;
+}
+
+div.nav-child{
+  display: flex;
+  flex-flow: column;
+  margin-top: 32px;
+  margin-left: 25%;
+  align-items: flex-start;
+  user-select: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: lightgray;
+  transition: 1s;
+}
+
+.nav-link {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 0.4vh;
+  text-decoration: none;
+  font-family: 'Bebas Neue';
+  font-size: 32px;
+}
+
+main {
+  background-color: gray;
+  width: 75%;
+}
+
+div.main-fchild{
+  margin-top: 21%;
+  display: block;
+  margin-left: 5%;
+}
+
+h1 {
+  font-family: 'Press Start 2P';
+  color: white;
+  text-shadow: 5px 5px 5px #000;
+  font-size: 25px;
+}
+
+h1 span{
+  color: #DEB887;
+}
+
+p{
+  font-size: 23px;
+  color: white;
+  text-shadow: 5px 5px 5px #000;
+  font-family: 'Bebas Neue', cursive;
+}
+
+p span{
+  color: #DEB887;
+}
+
+  </style>
+</head>
+<body>
+  <div style="display: flex; height: 100%;">
+    <aside>
+      <nav>
+        <img src="/images/fotoperfil.jpg" alt="foto de perfil">
+        <div class="nav-child">
+          <a class="nav-link" href="./sobre.html">SOBRE</a>
+          <a class="nav-link" href="./conhecimento.html">CONHECIMENTO</a>
+          <a class="nav-link" href="./objetivo.html">OBJETIVO</a>
+        </div>
+        </nav>
+    </aside>
+
+    <main>
+      <div class="main-fchild">
+        <h1>RAFAEL <span>LIMA GREGORIO</span></h1>
+        <p>Rua Arnaldo da Silva Chaves, 17 - SP <span>rafa001.gregorio@gmail.com</span></p>
+        <br>
+        <p>Sou uma pessoa muito alegre, focada nos seus objetivos e cada vez mais próxima da programação.</p>
+      </div>
+      <div style="display: flex;">
+        <a href="https://www.linkedin.com/in/rafael-lima-gregorio-1516a0266/" target="_blank"><img src="/images/download.png" style="width: 64px; margin-left: 52px; border-radius: 20%;"></a>
+        <a href="https://github.com/rafaellimagregorio" target="_blank"><img src="/images/github.png" style="width: 64px; margin-left: 20px; border-radius: 20%;"></a>
+      </div>
+    </main>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade Final</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://www.growdev.com.br/assets/images/favicons/favicon.png"> 
+  <style>
+
+body {
+  font-family: Sans-serif, serif;
+  margin: 0;
+  height: 100vh;
+}
+
+aside {
+  background: #DEB887;
+  width: 25%;
+  height: 100%;
+}
+
+nav{
+  display: block;
+  margin-top: 0;
+  height: 100%;
+
+}
+
+nav img {
+  height: 25vh;
+  border-radius: 50%;
+  position: relative;
+  margin-top: 23vh;
+  left:15%;
+  border: 5px solid orange;
+}
+
+div.nav-child{
+  display: flex;
+  flex-flow: column;
+  margin-top: 32px;
+  margin-left: 25%;
+  align-items: flex-start;
+  user-select: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: lightgray;
+  transition: 1s;
+}
+
+.nav-link {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 0.4vh;
+  text-decoration: none;
+  font-family: 'Bebas Neue';
+  font-size: 32px;
+}
+
+main {
+  background-color: gray;
+  width: 75%;
+}
+
+ol {
+  color: white;
+  font-size: 64px;
+  text-shadow: 5px 5px 5px #000;
+  font-family: 'Bebas Neue', cursive;
+  margin-top: 15%; 
+  margin-left: 15px;
+}
+
+  </style>
+</head>
+<body>
+  <div style="display: flex; height: 100%;">
+    <aside>
+      <nav>
+        <img src="/images/fotoperfil.jpg" alt="foto de perfil">
+        <div class="nav-child">
+          <a class="nav-link" href="./sobre.html">SOBRE</a>
+          <a class="nav-link" href="./conhecimento.html">CONHECIMENTO</a>
+          <a class="nav-link" href="./objetivo.html">OBJETIVO</a>
+        </div>
+        </nav>
+    </aside>
+    <main>
+      <ol type="a">
+        <li>básico HTML</li>
+        <li>básico CSS</li>
+        <li>PowerPoint</li>
+        <li>Sony Vegas</li>
+        <li>Word</li>
+      </ol>
+    </main>
+  </div>
+</body>
+</html>
